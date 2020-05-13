@@ -4,7 +4,8 @@
     <p>Name: {{country.name}}</p>
     <p>Capital City: {{country.capital}}</p>
     <p>Population: {{country.population}}</p>
-  </div>
+    <p>Languages Spoken: {{country.languages}}</p>
+    </div>
 </template>
 
 <script>
@@ -18,4 +19,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+
+h3 {
+    color: purple;
+}
+p {
+    color: yellow;
+    
+  }
 </style>

@@ -38,8 +38,14 @@ components: {
 </script>
 
 <style>
+  h1 {
+    color: green;
+    background-color: yellow;
+  }
   .main-container {
     display: flex;
     justify-content: space-between;
+    background-color: red;
   }
+  
 </style>
